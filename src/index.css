@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --color-orange-flame: #EA580C;
+    --color-pepperoni: #E31837;
+    --color-crust-gold: #F59E0B;
+    --color-charcoal-base: #0C0A09;
+    --color-charcoal-surface: #14110F;
+    --color-charcoal-card: #1C1917;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-charcoal-base);
+    color: #F5F5F4;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom glowing embers effect and glassmorphic hairline tokens */
+.border-hairline {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.border-hairline-accent {
+  border: 1px solid rgba(234, 88, 12, 0.25);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(234, 88, 12, 0.15) 0%, rgba(227, 24, 55, 0.05) 50%, transparent 80%);
+}
+
+.bg-ember-gradient {
+  background: linear-gradient(135deg, #EA580C 0%, #E31837 100%);
+}
+
+.text-gradient-fire {
+  background: linear-gradient(135deg, #FF9B42 0%, #EA580C 50%, #E31837 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0C0A09;
+}
+::-webkit-scrollbar-thumb {
+  background: #292524;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #EA580C;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Sucão Pizzaria | Forno a Lenha & Sabores Artesanais",
+  "description": "Pizzaria artesanal em Água Clara - MS. Massas de fermentação natural assadas em autêntico forno a lenha, ingredientes selecionados e pedidos rápidos via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
