@@ -1,17 +1,19 @@
 import { MenuItem } from '../types';
 
+import heroSucaoFachada from '../assets/images/hero_sucao_fachada_1792078355024.jpg';
 import heroPizzaWoodfire from '../assets/images/hero_pizza_woodfire_1791910480684.jpg';
 import pizzaMargherita from '../assets/images/pizza_margherita_special_1791910481629.jpg';
 import pizzaPepperoni from '../assets/images/pizza_pepperoni_premium_1791910481890.jpg';
 import pizzaQuatroQueijos from '../assets/images/pizza_quatro_queijos_1791910482401.jpg';
-import pizzariaAmbiance from '../assets/images/pizzaria_wood_oven_ambiance_1791910482384.jpg';
+import salaoInternoSucao from '../assets/images/salao_interno_sucao_1792079014201.jpg';
 
 export const IMAGES = {
-  hero: heroPizzaWoodfire,
+  hero: heroSucaoFachada,
+  heroPizza: heroPizzaWoodfire,
   margherita: pizzaMargherita,
   pepperoni: pizzaPepperoni,
   quatroQueijos: pizzaQuatroQueijos,
-  ambiance: pizzariaAmbiance,
+  ambiance: salaoInternoSucao,
 };
 
 export const MENU_ITEMS: MenuItem[] = [

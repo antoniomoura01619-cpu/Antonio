@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onContactClick, onExploreMenu }) => 
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/80 group">
               <img
                 src={IMAGES.hero}
-                alt="Pizzaiolo retirando pizza artesanal crocante com queijo borbulhante do forno a lenha na Sucão Pizzaria"
+                alt="Fachada e varanda iluminada da Sucão Pizzaria à noite com mesas e luzes decorativas"
                 className="w-full h-[400px] sm:h-[480px] lg:h-[520px] object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
               />
@@ -105,12 +105,12 @@ export const Hero: React.FC<HeroProps> = ({ onContactClick, onExploreMenu }) => 
               <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-black/60 backdrop-blur-md border border-white/10">
                 <div className="flex items-center justify-between text-xs mb-1">
                   <span className="text-[#EA580C] font-semibold flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5" /> Forno a 420°C
+                    <Sparkles className="w-3.5 h-3.5" /> Ambiente Acolhedor
                   </span>
                   <span className="text-stone-300 font-medium">Água Clara - MS</span>
                 </div>
                 <p className="text-xs text-stone-300">
-                  Massas abertas manualmente com farinha especial de alta hidratação.
+                  Venha viver momentos especiais em nossa varanda iluminada ou peça pelo delivery.
                 </p>
               </div>
             </div>

@@ -13,7 +13,7 @@ export const Story: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden border border-stone-800 shadow-2xl">
               <img
                 src={IMAGES.ambiance}
-                alt="Mestre pizzaiolo preparando massa fresca em frente ao forno a lenha na Sucão Pizzaria"
+                alt="Salão e varanda rústica da Sucão Pizzaria com teto em madeira e iluminação aconchegante"
                 className="w-full h-[420px] sm:h-[480px] object-cover"
                 referrerPolicy="no-referrer"
               />
